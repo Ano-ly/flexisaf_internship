@@ -10,8 +10,6 @@ public class Silo extends Store implements Buyable {
     public void buy() {
         noOfSilo++;
     }
-
-    // Silo does not implement sell(), as it is not Sellable
     
     public void setCost(double cost) {
         Silo.cost = cost;

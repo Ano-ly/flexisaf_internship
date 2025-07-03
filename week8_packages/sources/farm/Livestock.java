@@ -5,5 +5,4 @@ public abstract class Livestock {
     public Livestock(String type) {
         this.type = type;
     }
-    // Empty abstract class
 } 

@@ -63,8 +63,4 @@ public class Veg extends Crop implements Living<Veg>, Inventory, Sellable {
         Veg.price = newPrice;
     }
 
-    // Default constructor
-    public Veg() {
-        super("");
-    }
 } 
